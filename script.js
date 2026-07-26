@@ -117,7 +117,7 @@ AI & Data Science Undergraduate
 ===========================================================
 
 Contact Details:
-Email: hariprasath5086@gmail.com
+Email: hariprasath.xplorer@gmail.com
 Phone: +91 9360766509
 Location: Chennai, Tamil Nadu
 LinkedIn: https://linkedin.com/in/hariprasath5086
