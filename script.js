@@ -88,29 +88,38 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Resume Modal
-  function openModal(e) {
-    if (e && e.target.getAttribute('href') === 'assets/Hariprasath_V_Resume.pdf') {
-      // Allow direct download if default link clicked
-      return;
-    }
-    if (e) e.preventDefault();
+  // Resume Modal & Download Management
+  const heroPreviewBtn = document.getElementById('hero-preview-btn');
+  const atsModalBtn = document.getElementById('btn-view-ats-modal');
+  const allDownloadLinks = document.querySelectorAll('a[download]');
+
+  function openResumeModal() {
     resumeModal?.classList.add('active');
+    document.body.classList.add('no-scroll');
   }
 
-  function closeModal() {
+  function closeResumeModal() {
     resumeModal?.classList.remove('active');
+    document.body.classList.remove('no-scroll');
   }
 
-  downloadBtn?.addEventListener('click', openModal);
-  modalClose?.addEventListener('click', closeModal);
-  modalCancel?.addEventListener('click', closeModal);
+  heroPreviewBtn?.addEventListener('click', openResumeModal);
+  atsModalBtn?.addEventListener('click', openResumeModal);
+  modalClose?.addEventListener('click', closeResumeModal);
+  modalCancel?.addEventListener('click', closeResumeModal);
 
   if (resumeModal) {
     resumeModal.addEventListener('click', (e) => {
-      if (e.target === resumeModal) closeModal();
+      if (e.target === resumeModal) closeResumeModal();
     });
   }
+
+  // Notify user when a resume download starts
+  allDownloadLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      showToast("Downloading HARI PRASATH V's Official Resume PDF...");
+    });
+  });
 
   // Toast notifications
   function showToast(message) {

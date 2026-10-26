@@ -20,7 +20,7 @@ Artificial Intelligence and Data Science graduate based in Chennai, Tamil Nadu w
 - 🚀 **Projects**:
   - **CareerX**: Campus placement and career intelligence platform (Python, Flask, SQLite, JavaScript, ATS Resume Scanner, AI Placement Mentor)
   - **BrainStorme CLI**: Offline, adaptive Python quiz game with dynamic difficulty engine, 200-question bank, and 18 unit tests
-- 📬 **Contact**: [hariprasath5086@gmail.com](mailto:hariprasath5086@gmail.com) | +91 9360766509 | Chennai, Tamil Nadu
+- 📬 **Contact**: [hariprasath.tech29@gmail.com](mailto:hariprasath.tech29@gmail.com) | +91 9360766509 | Chennai, Tamil Nadu
 
 ---
 
@@ -81,7 +81,7 @@ hariprasath-profilo/
 
 ## 📬 Contact & Connect
 
-- **Email**: [hariprasath5086@gmail.com](mailto:hariprasath5086@gmail.com)
+- **Email**: [hariprasath.tech29@gmail.com](mailto:hariprasath.tech29@gmail.com)
 - **Phone**: +91 9360766509
 - **LinkedIn**: [hariprasath5086](https://linkedin.com/in/hariprasath5086)
 - **GitHub**: [hariprasath29-codes](https://github.com/hariprasath29-codes)

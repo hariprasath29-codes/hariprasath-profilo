@@ -45,6 +45,10 @@
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="assets/Hariprasath_V_Resume.pdf" download="Hari_Prasath_V_Resume.pdf" class="nav-resume-btn" title="Download Official Resume PDF">
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a></li>
         <li><a href="#contact" class="nav-cta">Let's Connect</a></li>
       </ul>
     </div>
@@ -64,20 +68,23 @@
             Hi, I'm <span class="highlight">HARI PRASATH V</span>
           </h1>
           <h2 class="hero-subtitle">
-            AI & Data Science Graduate | Python & Full-Stack Web Developer
+            AI & Data Science Graduate | Python & Front-End Web Developer
           </h2>
 
           <p class="hero-description">
-            Artificial Intelligence and Data Science graduate with a solid foundation in Python programming, front-end web development, and data handling. Skilled in HTML, CSS, JavaScript, Flask, SQL, and Python data libraries.
+            Artificial Intelligence and Data Science graduate with a solid foundation in Python programming, front-end web development, and data handling. Skilled in HTML, CSS, JavaScript, MySQL, and Python data libraries, with experience building responsive web interfaces and practical applications.
           </p>
 
           <div class="hero-actions">
-            <a href="assets/Hariprasath_V_Resume.pdf" target="_blank" download class="btn btn-primary"
-              id="btn-download-resume">
-              <i class="fa-solid fa-file-pdf"></i> Download PDF Resume
+            <a href="assets/Hariprasath_V_Resume.pdf" download="Hari_Prasath_V_Resume.pdf" class="btn btn-primary"
+              id="hero-download-btn">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
             </a>
-            <a href="#projects" class="btn btn-secondary">
-              <i class="fa-solid fa-laptop-code"></i> View Projects
+            <button type="button" class="btn btn-secondary" id="hero-preview-btn">
+              <i class="fa-solid fa-file-lines"></i> Preview Resume
+            </button>
+            <a href="#projects" class="btn btn-outline">
+              <i class="fa-solid fa-laptop-code"></i> Projects
             </a>
           </div>
 
@@ -86,7 +93,11 @@
               title="LinkedIn Profile" aria-label="LinkedIn">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="mailto:hariprasath5086@gmail.com" class="social-btn" title="Email HARI PRASATH V"
+            <a href="https://github.com/hariprasath29-codes" target="_blank" class="social-btn"
+              title="GitHub Profile" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:hariprasath.tech29@gmail.com" class="social-btn" title="Email HARI PRASATH V"
               aria-label="Email">
               <i class="fa-solid fa-envelope"></i>
             </a>
@@ -140,10 +151,10 @@
           <div class="about-grid">
             <div class="about-text">
               <p>
-                I am an <strong>Artificial Intelligence and Data Science graduate</strong> based in <strong>Chennai, Tamil Nadu</strong> with a solid foundation in Python programming, front-end web development, and data handling.
+                I am an <strong>Artificial Intelligence and Data Science graduate</strong> with a foundation in Python programming, front-end web development, and data handling.
               </p>
               <p>
-                Skilled in <strong>HTML, CSS, JavaScript, Flask, SQL</strong>, and <strong>Python data libraries</strong>, with experience building responsive web interfaces and practical applications. Developed a Python quiz application featuring a <strong>200-question bank and 18 unit tests</strong>, and contributed to a full-stack career platform.
+                Skilled in <strong>HTML, CSS, JavaScript, MySQL</strong>, and <strong>Python data libraries</strong>, with experience building responsive web interfaces and practical applications. Developed a Python quiz application featuring a <strong>200-question bank and 18 unit tests</strong>, and contributed to a full-stack career platform.
               </p>
               <p>
                 Prepared to apply analytical thinking, testing, and development skills in entry-level software, web development, or data-focused roles.
@@ -154,7 +165,7 @@
                   <i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu
                 </div>
                 <div class="info-pill">
-                  <i class="fa-solid fa-envelope"></i> hariprasath5086@gmail.com
+                  <i class="fa-solid fa-envelope"></i> hariprasath.tech29@gmail.com
                 </div>
                 <div class="info-pill">
                   <i class="fa-solid fa-phone"></i> +91 9360766509
@@ -521,7 +532,7 @@
         <p class="section-subtitle">Academic and personal projects demonstrating full-stack engineering, algorithmic logic, and automated testing.</p>
 
         <div class="projects-grid">
-          <!-- Project 1: CareerX -->
+          <!-- Project 1: Career X -->
           <div class="project-card">
             <div>
               <div class="project-top">
@@ -529,23 +540,23 @@
                   <i class="fa-solid fa-graduation-cap"></i> Academic / Personal Project
                 </span>
                 <span class="project-role-badge">
-                  <i class="fa-solid fa-user-gear"></i> Full-Stack Developer / Project Contributor
+                  <i class="fa-solid fa-user-gear"></i> Front-End Developer / Project Contributor
                 </span>
               </div>
 
-              <h3 class="project-title">CareerX</h3>
+              <h3 class="project-title">Career X</h3>
               <p class="project-desc">
-                A comprehensive campus placement and career intelligence platform designed to empower students with AI interview coaching, automated resume benchmarking, and timed aptitude evaluations.
+                A campus placement and career intelligence platform developed using Python and JavaScript, featuring an interview placement mentor, ATS-style resume scanner, and timed aptitude testing suite.
               </p>
 
               <div class="project-highlights-grid">
                 <div class="project-highlight-item">
                   <i class="fa-solid fa-robot"></i>
-                  <span>AI Placement Mentor</span>
+                  <span>Placement Mentor</span>
                 </div>
                 <div class="project-highlight-item">
                   <i class="fa-solid fa-file-lines"></i>
-                  <span>ATS-Style Resume Scanner</span>
+                  <span>ATS Resume Scanner</span>
                 </div>
                 <div class="project-highlight-item">
                   <i class="fa-solid fa-stopwatch"></i>
@@ -559,8 +570,8 @@
 
               <div class="project-responsibilities-title">Responsibilities & Implementation</div>
               <ul class="project-responsibilities">
-                <li>Developed a campus placement and career intelligence platform using Python, Flask, SQLite, and JavaScript.</li>
-                <li>Integrated an AI placement mentor for interview coaching.</li>
+                <li>Developed a campus placement and career intelligence platform using Python and JavaScript.</li>
+                <li>Integrated a placement mentor for interview coaching.</li>
                 <li>Included algorithmic problem-solving support and personalized career roadmaps.</li>
                 <li>Developed an ATS-style resume scanner to benchmark applicant profiles.</li>
                 <li>Included resume match scores and keyword optimization features.</li>
@@ -570,18 +581,17 @@
 
               <div class="project-impact-box">
                 <strong>Project Impact</strong>
-                Combined career guidance, resume analysis, aptitude testing, and interview preparation into one unified, intelligent platform.
+                Combined career guidance, resume analysis, aptitude testing, and interview preparation in one platform.
               </div>
             </div>
 
             <div class="project-tech-tags">
               <span class="project-tech-tag">Python</span>
-              <span class="project-tech-tag">Flask</span>
-              <span class="project-tech-tag">SQLite</span>
               <span class="project-tech-tag">JavaScript</span>
-              <span class="project-tech-tag">HTML5 / CSS3</span>
+              <span class="project-tech-tag">HTML / CSS</span>
               <span class="project-tech-tag">ATS Scanner</span>
-              <span class="project-tech-tag">AI Mentorship</span>
+              <span class="project-tech-tag">Career Intelligence</span>
+              <span class="project-tech-tag">Placement Mentor</span>
             </div>
           </div>
 
@@ -690,6 +700,96 @@
       </div>
     </section>
 
+    <!-- Dedicated Resume & ATS Credentials Section -->
+    <section class="resume-section" id="resume">
+      <div class="container">
+        <div class="section-tag">
+          <i class="fa-solid fa-file-invoice"></i> Official Credentials
+        </div>
+        <h2 class="section-title">Official Resume & <span>ATS Analysis</span></h2>
+        <p class="section-subtitle">
+          Verified academic credentials, project achievements, and parsed ATS profile for software engineering, front-end, and data roles.
+        </p>
+
+        <div class="resume-banner-card">
+          <div class="resume-banner-header">
+            <div class="resume-title-group">
+              <div class="resume-file-icon">
+                <i class="fa-solid fa-file-pdf"></i>
+              </div>
+              <div>
+                <h3 class="resume-doc-title">HARI_PRASATH_V_Resume.pdf</h3>
+                <div class="resume-doc-meta">
+                  <span><i class="fa-solid fa-file-pdf" style="color: var(--accent-red);"></i> PDF File (295 KB)</span>
+                  <span><i class="fa-solid fa-circle-check" style="color: var(--emerald-accent);"></i> ATS Benchmarked</span>
+                  <span><i class="fa-solid fa-user-graduate"></i> Class of 2026</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-download-actions">
+              <a href="assets/Hariprasath_V_Resume.pdf" download="Hari_Prasath_V_Resume.pdf" class="btn btn-primary" id="btn-download-resume-section">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+              </a>
+              <a href="assets/Hariprasath_V_Resume.pdf" target="_blank" class="btn btn-secondary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Full PDF
+              </a>
+              <button type="button" class="btn btn-outline" id="btn-view-ats-modal">
+                <i class="fa-solid fa-magnifying-glass-chart"></i> View Resume Details
+              </button>
+            </div>
+          </div>
+
+          <div class="resume-highlights-grid">
+            <div class="resume-metric-card">
+              <div class="metric-header">
+                <span class="metric-score emerald">92%</span>
+                <i class="fa-solid fa-shield-halved metric-icon"></i>
+              </div>
+              <div class="metric-title">ATS Compatibility Score</div>
+              <p class="metric-desc">Standard single-column format, clean typography, parse-ready headers, and verified technical keywords.</p>
+            </div>
+
+            <div class="resume-metric-card">
+              <div class="metric-header">
+                <span class="metric-score gold">7.96</span>
+                <i class="fa-solid fa-graduation-cap metric-icon"></i>
+              </div>
+              <div class="metric-title">B.Tech Cumulative GPA</div>
+              <p class="metric-desc">Prathyusha Engineering College (2022 – 2026) Artificial Intelligence & Data Science.</p>
+            </div>
+
+            <div class="resume-metric-card">
+              <div class="metric-header">
+                <span class="metric-score blue">200+</span>
+                <i class="fa-solid fa-database metric-icon"></i>
+              </div>
+              <div class="metric-title">Curated Question Bank</div>
+              <p class="metric-desc">BrainStorme adaptive quiz covering Python Standard Library, OOP, NumPy, and Pandas.</p>
+            </div>
+
+            <div class="resume-metric-card">
+              <div class="metric-header">
+                <span class="metric-score gold">18</span>
+                <i class="fa-solid fa-vial-circle-check metric-icon"></i>
+              </div>
+              <div class="metric-title">Automated Unit Tests</div>
+              <p class="metric-desc">Developed using Python’s standard unittest framework to maintain strict reliability.</p>
+            </div>
+          </div>
+
+          <div class="resume-summary-banner">
+            <div class="summary-badge">
+              <i class="fa-solid fa-quote-left"></i> Executive Summary
+            </div>
+            <p>
+              "Artificial Intelligence and Data Science graduate with a foundation in Python programming, front-end web development, and data handling. Skilled in HTML, CSS, JavaScript, MySQL, and Python data libraries, with experience building responsive web interfaces and practical applications. Developed a Python quiz application featuring a 200-question bank and 18 unit tests, and contributed to a full-stack career platform. Prepared to apply analytical thinking, testing, and development skills in entry-level software, web development, or data-focused roles."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
       <div class="container">
@@ -704,7 +804,7 @@
             <div>
               <h3 class="contact-info-title">Contact Information</h3>
               <p class="contact-info-text">
-                Feel free to reach out via email, phone, or LinkedIn. I am prepared to apply analytical thinking, testing, and development skills in entry-level software, web development, or data-focused roles.
+                Feel free to reach out via email, phone, LinkedIn, or GitHub. I am prepared to apply analytical thinking, testing, and development skills in entry-level software, web development, or data-focused roles.
               </p>
 
               <div class="contact-details-list">
@@ -714,7 +814,9 @@
                   </div>
                   <div>
                     <div class="contact-item-label">Email Address</div>
-                    <div class="contact-item-value">hariprasath5086@gmail.com</div>
+                    <div class="contact-item-value">
+                      <a href="mailto:hariprasath.tech29@gmail.com" style="color: inherit; text-decoration: underline;">hariprasath.tech29@gmail.com</a>
+                    </div>
                   </div>
                 </div>
 
@@ -724,7 +826,9 @@
                   </div>
                   <div>
                     <div class="contact-item-label">Phone Number</div>
-                    <div class="contact-item-value">+91 9360766509</div>
+                    <div class="contact-item-value">
+                      <a href="tel:+919360766509" style="color: inherit;">+91 9360766509</a>
+                    </div>
                   </div>
                 </div>
 
@@ -737,6 +841,19 @@
                     <div class="contact-item-value">
                       <a href="https://linkedin.com/in/hariprasath5086" target="_blank"
                         style="text-decoration: underline; color: #ffffff;">hariprasath5086</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">GitHub</div>
+                    <div class="contact-item-value">
+                      <a href="https://github.com/hariprasath29-codes" target="_blank"
+                        style="text-decoration: underline; color: #ffffff;">hariprasath29-codes</a>
                     </div>
                   </div>
                 </div>
@@ -811,52 +928,52 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#resume">Resume & ATS</a></li>
+            <li><a href="assets/Hariprasath_V_Resume.pdf" download="Hari_Prasath_V_Resume.pdf"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a></li>
           </ul>
         </div>
 
         <div>
           <h4 class="footer-title">Connect</h4>
           <ul class="footer-links">
-            <li><a href="mailto:hariprasath5086@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a></li>
+            <li><a href="mailto:hariprasath.tech29@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a></li>
             <li><a href="tel:+919360766509"><i class="fa-solid fa-phone"></i> Call Phone</a></li>
-            <li><a href="https://linkedin.com/in/hariprasath5086" target="_blank"><i class="fa-brands fa-linkedin"></i>
-                LinkedIn</a></li>
+            <li><a href="https://linkedin.com/in/hariprasath5086" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/hariprasath29-codes" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
         <div>&copy; 2026 HARI PRASATH V. All rights reserved.</div>
-        <div>Chennai, Tamil Nadu | hariprasath5086@gmail.com</div>
+        <div>Chennai, Tamil Nadu | hariprasath.tech29@gmail.com</div>
       </div>
     </div>
   </footer>
 
-  <!-- Resume Preview Modal -->
+  <!-- Resume Preview & ATS Modal -->
   <div class="modal-overlay" id="resume-modal">
     <div class="modal-card">
       <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
-      <h3 class="modal-title"><i class="fa-solid fa-file-pdf" style="color: var(--accent-red);"></i> HARI PRASATH V -
-        Official Resume</h3>
-      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+      <h3 class="modal-title"><i class="fa-solid fa-file-pdf" style="color: var(--accent-red);"></i> HARI PRASATH V - Official Resume</h3>
+      <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
         View or download the official PDF resume document of HARI PRASATH V (Artificial Intelligence & Data Science Graduate).
       </p>
 
-      <div
-        style="background: var(--bg-cream); padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 1.5rem; border: 1px solid rgba(16,24,32,0.08);">
-        <h4 style="font-family: var(--font-heading); margin-bottom: 0.75rem; color: var(--secondary-blue);">Resume
-          Highlights</h4>
+      <div style="background: var(--bg-cream); padding: 1.25rem; border-radius: var(--radius-md); margin-bottom: 1.5rem; border: 1px solid rgba(16,24,32,0.08);">
+        <h4 style="font-family: var(--font-heading); margin-bottom: 0.75rem; color: var(--secondary-blue);">Resume & ATS Highlights</h4>
         <ul style="padding-left: 1.2rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.8;">
-          <li><strong>Education:</strong> B.Tech in AI & Data Science (Prathyusha Eng. College) — <strong>7.96 CGPA</strong> (2022 – 2026)</li>
-          <li><strong>Project 1: CareerX:</strong> Full-Stack Campus Placement & Career Platform (Python, Flask, SQLite, JavaScript, ATS Resume Scanner)</li>
-          <li><strong>Project 2: BrainStorme CLI:</strong> Adaptive Python Quiz Game (200-question bank, dynamic difficulty, 18 unit tests)</li>
-          <li><strong>Technical Skills:</strong> Python, JavaScript, Flask, HTML/CSS, SQL, SQLite, MySQL, Pandas, NumPy, Matplotlib, JSON, CSV, Git/GitHub</li>
-          <li><strong>Soft Skills:</strong> Analytical & problem-solving, Adaptability, Testing & Debugging, Collaboration</li>
+          <li><strong>Education:</strong> B.Tech in AI & Data Science (Prathyusha Eng. College, 2022 – 2026) — <strong>7.96 CGPA</strong></li>
+          <li><strong>Project 1: BrainStorme CLI:</strong> Adaptive Python Quiz Game (200-question bank, dynamic difficulty engine, streak multipliers, 18 unit tests)</li>
+          <li><strong>Project 2: Career X:</strong> Campus Placement & Career Intelligence Platform (ATS-style resume scanner, placement mentor, timed aptitude test suite)</li>
+          <li><strong>Technical Skills:</strong> Python, HTML, CSS, JavaScript, Pandas, NumPy, Matplotlib, JSON, CSV, MySQL, Git, GitHub</li>
+          <li><strong>Soft Skills:</strong> Analytical & problem-solving, Adaptability, Attention to detail (testing & debugging), Collaboration</li>
+          <li><strong>ATS Readiness:</strong> 92% Match Score for Entry-Level Software, Web, and Data Roles</li>
         </ul>
       </div>
 
       <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="assets/Hariprasath_V_Resume.pdf" target="_blank" download class="btn btn-primary" style="flex: 1;">
+        <a href="assets/Hariprasath_V_Resume.pdf" download="Hari_Prasath_V_Resume.pdf" class="btn btn-primary" id="modal-download-btn" style="flex: 1;">
           <i class="fa-solid fa-download"></i> Download PDF Resume
         </a>
         <a href="assets/Hariprasath_V_Resume.pdf" target="_blank" class="btn btn-secondary" style="flex: 1;">
